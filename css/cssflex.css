@@ -1,0 +1,36 @@
+
+
+body{
+	background-color: tomato;
+	
+}
+
+div{
+	border:1px solid black;	
+}
+
+#parent{ 
+height:300px;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-between; /* its set for  horizontal alignment*/  
+/*flex-end | flex-start | space-around| space between */
+align-items:flex-end;
+}
+
+.child{ 
+    width:25%;
+	Height:100px;
+	text-transform:capitalize;
+	border:1px solid green;
+	align-self:flex-start;
+	flex-grow:1;
+	
+	
+
+}
+
+#image{ 
+width:6%;
+}

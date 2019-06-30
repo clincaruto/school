@@ -1,0 +1,145 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+ #container{
+  height:300px;
+  border:1px solid black;
+ }
+ 
+ #banner{
+	 border:1px solid black;
+	 height:300px;
+	 display:flex;
+ }
+ .banner-child{ 
+  border:1px solid red;
+  flex-grow:1;
+ }
+ 
+ #menu{
+	 border:1px solid black;
+	 
+ }
+ 
+ #menu ul li{ 
+ list-style-type:none;
+ border:1px solid blue;
+ padding:20px;
+ background-color: Purple;
+ color:white;
+ }
+ 
+ #menu ul li:hover{
+	 background-color:red;
+	 color:white;
+ }
+ 
+ #menu ul{ 
+ justify-content:space-around;
+ display:flex;
+ }
+ #box1{
+	 border:1px solid black;
+	 height:300px;
+	 display:flex;
+	 
+ }
+ .boxchild1{
+	 border:1px solid black;
+	 flex-grow:1;
+ }
+ 
+ #box2{
+	 border:1px solid black;
+	 height:300px;
+	 
+ }
+ 
+ .boxclass{
+	 border:1px solid black;
+	 flex-grow:1;
+ }
+ 
+	 @media (min-width: 1281px) {
+  
+
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ #menu{
+	 border:1px solid black;
+	 height:100px;
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+ #menu{
+	 border:1px solid black;
+	 height:100px;
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+ 
+ #menu{
+	 border:1px solid black;
+	 height:100px; 
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ #menu{
+	 border:1px solid black;
+	 height:100px;
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	#banner{ 
+	flex-direction:column;
+	}
+	
+	#box1{ 
+	flex-direction:column;
+	}
+	
+	
+
+  
+}

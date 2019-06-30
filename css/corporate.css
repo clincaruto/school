@@ -1,0 +1,30 @@
+#container{ 
+	 border: 1px solid black;
+	 width: 80%;
+	 margin:auto;
+	 }
+	 
+	 ul li { 
+	 list-style-type:none;
+	 text-transform: capitalize;
+	 display:inline-block;
+	 text-align:center;
+	 margin-left:100px;
+	 }
+	 
+	 
+	 
+	 ul li  a{ 
+	 text-decoration:none;
+	 text-align:center;
+	 border:1px solid red;
+	 margin:20px;
+	 padding: 10px;
+	 }
+	 
+	 
+	 .banner{ 
+	 border: 1px solid tomato;
+	 height:500px;
+	 background-image:url("images/bus4.jpg");
+	 }

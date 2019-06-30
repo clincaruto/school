@@ -1,0 +1,225 @@
+body{
+	
+}
+
+
+.container{
+	background-color:#d7fdec;
+}
+
+div{
+	border:1px solid blue;
+	
+	width: 100%;
+}
+
+#logo{
+   height:50px;
+}
+
+.row1{
+	height:53px;
+	background-color: white;
+
+}
+
+.row2 ul{
+	display:flex;
+	justify-content:space-around;
+	
+}
+
+.row2{
+	height:50px;
+	background-color: #627394;
+}
+
+.row3-background{
+	background-image:url("../images/bus14.jpg");
+	height:400px;
+}
+	
+.row2 ul{
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+ul li a:hover{
+ border:1px solid blue;
+ color:white;
+ background-color: #e51937;
+ padding:15px;
+
+}
+
+
+#background{
+	border:1px solid black;
+	height:100px;
+	width:500px;
+	position:absolute;
+	top:255px;
+	right:30%;
+	color:white;
+	background-color:rgba(106,127,219,0.6);
+	text-transform: capitalize;
+}
+
+
+
+#background button{
+	background-color: purple;
+	color: white;
+
+}
+
+
+.button{
+
+}
+
+
+
+.row4{
+	display:flex;
+	justify-content: space-between;
+}
+
+
+.wrapper{
+	height:1400px;
+	width:70%;
+	border:1px solid white;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+
+
+}
+
+
+.bus{
+	border:1px solid red;
+	height:300px;
+	width:200px;
+	
+}
+
+
+.bus img{
+	height:100px;
+	width:100px;
+	
+	
+}
+
+
+h2{
+	text-align: center;
+}
+
+
+caption{
+	caption-side:top;
+	font-size:30px;
+}
+
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+
+.color{
+	color: blue;
+}
+
+
+.row6{
+    background-color:#43aa8b;
+    color:white;
+}
+
+
+.imagesize{
+	height:200px;
+	width:200px;
+	margin:15px;
+
+}
+
+
+.sub{
+	background-color:orange;
+	border:1px solid orange;
+	color:white;
+}
+
+input{
+	width:300px;
+}
+
+
+#small{
+	
+}
+
+.small{
+	height: 30px;
+	width:30px;
+	border-radius: 50%;
+	filter:grayscale(1);
+}
+
+
+.small:hover{
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	filter:none;
+}
+
+.row7{
+	height: 120px;
+}
+
+.row8{
+	text-align: right;
+	height: 100px;
+
+}
+
+#imgcontact{
+	margin-right: 10px;
+	height: 50px;
+}	
+
+
+.imgmobile{
+	height: 50px;
+	width:200px;
+}
+
+.mobile{
+	text-align:right;
+	height:200px;
+}
+
+.mobile h3{
+	margin-right: 40px;
+	color: blue;
+	font-size: 20px;
+}
+
+#footer{
+	text-align: center;
+	background-color: #b2b09b;
+
+}

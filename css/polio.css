@@ -1,0 +1,23 @@
+body{
+	 background-color:rgb(0,255,255);
+}
+
+#gate{
+  width:300px;
+  height:300px;
+  float:left;
+  margin:5px;
+}
+
+img{
+	 width:100%;
+	 height:100%;
+}
+
+p{
+	font-family:lato,arial,san-serif;
+}
+	
+h2{
+	text-align:center;
+}

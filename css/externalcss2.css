@@ -1,0 +1,47 @@
+body{ 
+background-color:tomato;
+
+}
+
+h1{
+text-shadow:10px 5px 3px blue;	
+}
+
+div{ 
+height:200px;
+width:200px;
+box-shadow: 8px 6px 20px purple;
+text-align:center;
+float:left;
+line-height:200px;
+background-color:grey;
+margin:20px;
+}
+
+
+.box4{ 
+height:200px;
+width:200px;
+box-shadow: 8px 6px 20px purple;
+text-align:center;
+line-height:200px;
+background-color:grey;
+display:inline-block;
+}
+
+
+table tr td:hover{ 
+background-color:green;
+}
+
+
+table tr:nth-child(even) { 
+background-color:blue;
+color:white;
+}
+
+.clear{
+	clear:both;
+}
+
+
